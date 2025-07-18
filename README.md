@@ -133,22 +133,22 @@ Swing fue una buena elección por su facilidad de uso y su integración directa 
 ## 🏗️ Estructura del Proyecto
 
 U2-Proyecto-Recetas/
-├── README.md                 # Documentación del proyecto
-├── /src/                    # Código fuente en Java
-│   ├── GeneradorRecetasUnico.java  # Clase principal con GUI y lógica del programa
-│   ├── Receta.java                 # Clase modelo de receta
-│   └── RecetaDialog.java          # Ventana modal para mostrar recetas
-├── /resources/              # Recursos estáticos (opcional)
-│   └── ingredientes.png           # Imágenes o íconos de la interfaz
-├── /docs/                   # Documentación adicional y capturas
-│   ├── Reporte_Proyecto.pdf       # Reporte técnico en PDF
-│   ├── Diagrama_Clases.png        # Diagrama UML de clases
-│   └── Instrucciones_Instalacion.txt # Instrucciones complementarias
-├── /test/                   # Pruebas del sistema
-│   └── pruebas.txt               # Casos de prueba manuales
-├── .gitignore               # Archivos ignorados por Git
-└── build/                   # Carpeta de compilación (opcional si usas IDE)
-
+├── README.md                  # Documentación del proyecto (este archivo)
+├── src/                       # Código fuente en Java
+│   ├── GeneradorRecetasUnico.java   # Clase principal con GUI
+│   ├── Receta.java                  # Clase modelo de receta
+│   └── RecetaDialog.java           # Ventana modal para mostrar recetas
+├── docs/                      # Documentación adicional
+│   ├── Reporte_Proyecto.pdf         # Reporte completo del proyecto
+│   ├── Diagrama_Clases.png         # Imagen del diagrama de clases
+│   └── Capturas/                   # Carpeta con capturas de pantalla
+├── test/                      # Pruebas del sistema
+│   └── casos_prueba.txt             # Casos de prueba manuales
+├── build/                     # Archivos compilados (opcional)
+├── .gitignore                 # Archivos ignorados por Git
+├── LICENSE                    # Licencia del proyecto
+└── resources/                 # Recursos estáticos (imágenes, íconos, etc.)
+    └── logo.png                     # Ejemplo de imagen
 
 📚 Referencias
 Documentación de Java: https://docs.google.com/document/d/1ExIDcHN4Zw6xvEa4iLns8wox2-6f5fTTTWbI6rgp3uU/edit?usp=sharing
