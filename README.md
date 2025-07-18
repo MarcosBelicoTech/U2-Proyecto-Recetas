@@ -132,7 +132,8 @@ Swing fue una buena elección por su facilidad de uso y su integración directa 
 
 ## 🏗️ Estructura del Proyecto
 
-´´´U2-Proyecto-Recetas/
+```plaintext
+U2-Proyecto-Recetas/
 ├── README.md                  # Documentación del proyecto (este archivo)
 ├── src/                       # Código fuente en Java
 │   ├── GeneradorRecetasUnico.java   # Clase principal con GUI
@@ -149,23 +150,7 @@ Swing fue una buena elección por su facilidad de uso y su integración directa 
 ├── LICENSE                    # Licencia del proyecto
 └── resources/                 # Recursos estáticos (imágenes, íconos, etc.)
     └── logo.png                     # Ejemplo de imagen
-´´´U2-Proyecto-Recetas/
-├── README.md                 # Documentación del proyecto
-├── /src/                    # Código fuente en Java
-│   ├── GeneradorRecetasUnico.java  # Clase principal con GUI y lógica del programa
-│   ├── Receta.java                 # Clase modelo de receta
-│   └── RecetaDialog.java          # Ventana modal para mostrar recetas
-├── /resources/              # Recursos estáticos (opcional)
-│   └── ingredientes.png           # Imágenes o íconos de la interfaz
-├── /docs/                   # Documentación adicional y capturas
-│   ├── Reporte_Proyecto.pdf       # Reporte técnico en PDF
-│   ├── Diagrama_Clases.png        # Diagrama UML de clases
-│   └── Instrucciones_Instalacion.txt # Instrucciones complementarias
-├── /test/                   # Pruebas del sistema
-│   └── pruebas.txt               # Casos de prueba manuales
-├── .gitignore               # Archivos ignorados por Git
-├── LICENSE                  # Licencia del proyecto (MIT, GPL, etc.)
-└── build/                   # Carpeta de compilación (opcional si usas IDE)
+```
 
 
 📚 Referencias
